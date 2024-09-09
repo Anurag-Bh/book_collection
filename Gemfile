@@ -64,5 +64,4 @@ gem 'brakeman'
 gem 'rubocop'
 gem 'net-smtp'
 gem 'matrix'
-gem 'matrix'
 
