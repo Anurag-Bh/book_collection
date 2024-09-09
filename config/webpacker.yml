@@ -91,3 +91,10 @@ production:
   # Cache manifest.json for performance
   cache_manifest: true
 
+node: {
+  fs: 'empty',
+  net: 'empty',
+  tls: 'empty',
+  dgram: 'empty',
+  child_process: 'empty'
+}
