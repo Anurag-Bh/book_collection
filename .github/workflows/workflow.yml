@@ -30,6 +30,8 @@ jobs:
         run: |
           gem install bundler
           bundler install
+      - name: Compile Webpack assets
+        run: bin/webpack --config config/webpacker.yml
       - name: Create database
         run: |
           bundler exec rails db:create RAILS_ENV=test
