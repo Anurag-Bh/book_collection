@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   root 'books#index'
 
   resources :books do
+    root 'books#index'
     member do
       get :delete
     end
